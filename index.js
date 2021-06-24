@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node!\n'
+  const msg = 'Hello your node js app on openshift is up and running!\n'
   res.end(msg);
 });
 
